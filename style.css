@@ -1,0 +1,82 @@
+
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+}
+
+button {
+	border: none;
+	background: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+body {
+	background-color: rgb(255, 153, 0);
+	color: #fefefe;
+	height: 100%;
+}
+
+.theme-container{
+	padding: 1rem;
+	text-align: end;
+
+}
+
+label {
+	font-size: 1.5rem;
+	margin-right: 0.2rem;
+}
+
+select {
+	font-size: 1.5rem;
+	border-radius: 4px;
+	border: 1px solid #fefefe;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	outline: none;
+}
+
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 30em;
+	margin: 10rem auto;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.title {
+	font-size: 2.5rem;
+
+}
+
+#display-time{
+	font-size: 3rem;
+	letter-spacing: 0.05em;
+}
+
+.btn__wrapper {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 2em;
+}
+
+.btn {
+	border: 1px solid #fefefe;
+	padding: 1rem 0 1rem;
+	border-radius: 4px;
+	width: 8rem;
+	font-size: 1.1em;
+	margin-top: 1rem;
+}
